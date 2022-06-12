@@ -20,7 +20,7 @@ const useStyle = makeStyles({
     itemName: {
         fontWeight: 'bold',
         fontSize: '2rem',
-        color: '#F88A17',
+        color: '#cc584a',
         marginBottom: '1rem',
     },
     itemDescription: {
@@ -38,9 +38,9 @@ const useStyle = makeStyles({
         width: '70%',
         maxWidth: '13rem',
         padding: '0.5rem 0rem',
-        background: '#FFCDB7',
+        background: '#e88a7e',
         border: '2px solid #FFE1D4',
-        color: '#F38C6C',
+        color: 'white',
         marginBottom: '1rem',
         borderRadius: '0.5rem',
         fontWeight: 'bold',
@@ -83,7 +83,7 @@ const useStyle = makeStyles({
         textDecoration: 'none',
         fontWeight: '600',
         fontSize: '1.25rem',
-        color: '#F88A17',
+        color: '#e88a7e',
     },
     shopNav: {
         display: 'flex',
@@ -280,10 +280,10 @@ export const ProductItem = props => {
                                 .split('\\n')
                                 .map(sentence => {
                                     return (
-                                        <>
+                                        <React.Fragment key={sentence}>
                                             {' '}
                                             {sentence} <br />{' '}
-                                        </>
+                                        </React.Fragment>
                                     )
                                 })}
                         </div>

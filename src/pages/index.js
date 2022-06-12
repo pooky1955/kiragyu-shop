@@ -10,7 +10,7 @@ const IndexPage = ({ location }) => {
             <SEO
                 title="Home"
                 keywords={[
-                    `inspiratiq`,
+                    `kiragyu`,
                     `shop`,
                     `ecommerce`,
                     `gatsby`,

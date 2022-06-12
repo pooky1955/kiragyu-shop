@@ -47,7 +47,7 @@ const useStyles = makeStyles({
     fontWeight: "600",
     marginTop: "0.25rem",
     marginBottom: "0.5rem",
-    color: "#F88A17",
+    color: "#e88a7e",
     width: "13rem",
   },
   button: {
@@ -109,7 +109,7 @@ const ProductCard = ({ products }) => {
   }
   const fixedImg = product.gatsbyImages[0].childImageSharp.fluid;
   const soldOut = product.metadata.soldOut;
-  if (soldOut !== null) {
+  if (soldOut === "true") {
     return (
       <div className={classes.cardStyles}>
         <fieldset style={{ border: "none" }}>

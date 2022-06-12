@@ -4,9 +4,9 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `INSPIRATIQ`,
-    description: `Shop art prints by @inspiratiq`,
-    author: `James Liang and Marlene Liang`,
+    title: `KIRAGYU`,
+    description: `Shop art prints by @kiragyu`,
+    author: `James Liang and Jane Hao`,
   },
 
   flags: {
@@ -56,8 +56,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Inspiratiq Shop`,
-        short_name: `Inspiratiq`,
+        name: `Kiragyu Shop`,
+        short_name: `Kiragyu`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,

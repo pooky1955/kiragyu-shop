@@ -68,7 +68,7 @@ exports.createPages = async ({ graphql, actions, reporter, createNodeId }) => {
   const data = await graphql(`
     query ProductPrices {
       prices: allStripePrice(
-        filter: { product: { active: { eq: true },metadata : {soldOut : {eq : null}} } }
+        filter: { product: { active: { eq: true },metadata : {soldOut : {ne : "true"}} } }
         sort: { fields: [product___metadata___order] }
       ) {
         edges {
@@ -77,7 +77,6 @@ exports.createPages = async ({ graphql, actions, reporter, createNodeId }) => {
             active
             currency
             unit_amount
-            nickname
             product {
               id
               active

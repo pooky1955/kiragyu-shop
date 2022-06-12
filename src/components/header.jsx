@@ -33,7 +33,8 @@ const useStyle = makeStyles({
     marginBottom : "0.5rem",
   },
   linkStyle: {
-    color: '#FFA634',
+    // color: '#FFA634',
+    color: '#cc584a',
     textDecoration: "none"
   },
   navBar: {

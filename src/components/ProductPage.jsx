@@ -21,7 +21,7 @@ const useStyle = makeStyles({
     justifyContent: "space-between",
   }),
   title: {
-    color: "#F88A17",
+    color: "#cc584a",
     marginBottom: "2rem",
   },
 

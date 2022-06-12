@@ -94,7 +94,7 @@ const About = () => {
               <a
                 target="blank"
                 rel="noopener noreferrer"
-                href="https://www.instagram.com/inspiratiq/"
+                href="https://www.instagram.com/kiragyu/"
                 id="logo"
               >
                 <img src={InstagramIcon} height="60" alt="instagram icon"/>

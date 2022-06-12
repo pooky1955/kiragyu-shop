@@ -20,10 +20,10 @@ const useStyle = makeStyles({
   linkStyle: {
     textDecoration: 'none',
     fontWeight: 'bold',
-    color: '#FC9C74',
+    color: '#e88a7e',
     '&:link,&:visited,&:hover': {
       textDecoration: 'none',
-      color: '#FC9C74',
+      color: '#e88a7e',
     },
   },
 })

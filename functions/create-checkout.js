@@ -39,10 +39,10 @@ exports.handler = async (event) => {
       billing_address_collection: "auto",
       shipping_options : [
         {
-          shipping_rate : "shr_1ImSucKyXfa4PBtt9iWTN7Be",
+          shipping_rate : "shr_1L9wBXEGAyepccJDGNnDlW5G",
         },
         {
-          shipping_rate : "shr_1K0ESJKyXfa4PBttCcBY7wue"
+          shipping_rate : "shr_1L9wCVEGAyepccJDCVh3n0Ht"
         }
       ],
       allow_promotion_codes: true,

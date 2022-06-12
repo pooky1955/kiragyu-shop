@@ -66,35 +66,6 @@ export const FAQ = ({ data }) => {
       <div className={classes.FAQ}>
         <MDXRenderer>{mdx.body}</MDXRenderer>
       </div>
-      {/* <h1 className={classes.pageTitle}>FREQUENTLY ASKED QUESTIONS</h1>
-      <div className={classes.bubbleText}>
-        <img src={PinkBubble} height="280" width="750" />
-        <div className={classes.subtitle}>
-          If you have any issues or questions, please contact me at{' '}
-          <span className={classes.email}>inspiratiq.art@gmail.com</span> and I
-          will be happy to answer!
-        </div>
-      </div>
-      <h2 className={classes.category}>📦 Shipping</h2>
-      <div className={classes.question}>WHEN WILL MY ORDER SHIP?</div>
-      <div>
-        All orders will be shipped within 1-2 business days from your order
-        date.<br></br>
-        Here are the <b>expected shipping times:</b>
-      </div>
-      <br></br>
-      <ul>
-        <li>1-4 business days for Canadian orders</li>
-        <li>4-6 business days for US orders</li>
-        <li>4-7 business days international orders</li>
-      </ul>
-      <div>
-        Given the current situation, delays can be expected for certain
-        packages. Thank you for your patience and understanding. Please contact
-        me at <b>inspiratiq.art@gmail.com</b> with your <b>order number</b> or{' '}
-        <b>full name</b> if you haven’t received your package in these time
-        frames.
-      </div> */}
     </Layout>
   )
 }

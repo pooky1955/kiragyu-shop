@@ -11,7 +11,7 @@ query CartQuery {
       active: {eq: true}, 
       product: {
         active: {eq: true},
-      	metadata: {soldOut: {eq: null}}}
+      	metadata: {soldOut: {ne: "true"}}}
     }) {
     edges {
       node {

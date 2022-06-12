@@ -1,7 +1,7 @@
 {
-  "name": "inspiratiq-shop",
+  "name": "kiragyu-shop",
   "private": true,
-  "description": "Shop art prints by @inspiratiq",
+  "description": "Shop art prints by @kiragyu",
   "version": "0.1.0",
   "author": "@thorwebdev",
   "dependencies": {

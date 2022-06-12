@@ -15,7 +15,7 @@ const useStyle = makeStyles({
 
   cartButton: {
     padding: ".5rem",
-    background: "#FFB672",
+    background: "#e88a7e",
     border: "2px solid #FFE1D4",
     color: "#FFF",
     borderRadius: "0.5rem",
